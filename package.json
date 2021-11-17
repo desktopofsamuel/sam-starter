@@ -1,14 +1,15 @@
 {
-  "name": "gatsby-starter-ts",
-  "description": "A TypeScript starter for Gatsby that includes all you need to build amazing projects",
+  "name": "sam-starter",
+  "description": "A Chakra UI Typescript Starter",
   "version": "1.0.0",
   "private": true,
-  "author": "João Pedro Schmitz <hey@joaopedro.dev> (https://joaopedro.dev)",
+  "author": "Samuel Wong <desktopofsamuel@gmail.com> (https://desktopofsamuel.com)",
   "license": "MIT",
   "keywords": [
     "gatsby",
     "starter",
-    "typescript"
+    "typescript",
+    "chakra-ui"
   ],
   "scripts": {
     "start": "gatsby develop",
@@ -18,7 +19,6 @@
     "type-check": "tsc",
     "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
     "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
-    "postinstall": "husky install",
     "test": "jest",
     "commit": "cz"
   },
