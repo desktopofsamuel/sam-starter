@@ -1,17 +1,18 @@
 import React from 'react';
 import { PageProps } from 'gatsby';
-
+import { Button, Text } from '@chakra-ui/react';
+import Link from '@/components/gatsby-link';
 import Title from '@/components/Title';
+import Layout from '@/components/layout';
 
 const Home: React.FC<PageProps> = () => (
-  <main>
-    <Title>Hello TypeScript!</Title>
-    <p>A TypeScript starter for Gatsby. Great for advanced users.</p>
-    <p>
-      Follow me on Twitter (
-      <a href="https://twitter.com/jpedroschmitz">@jpedroschmitz</a>)
-    </p>
-  </main>
+  <Layout title="Hello World">
+    <Title>Hello Gatsby!</Title>
+    <Text>A Chakra UI starter for GatsbyJS.</Text>
+    <Link to="https://twitter.com/desktopofsamuel">
+      <Button>Follow me on Twitter</Button>
+    </Link>
+  </Layout>
 );
 
 export default Home;

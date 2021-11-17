@@ -1,10 +1,11 @@
 import React from 'react';
+import { Text } from '@chakra-ui/react';
 import { PageProps } from 'gatsby';
 
 const NotFound: React.FC<PageProps> = () => (
-  <main>
-    <p>Sorry, page not found!</p>
-  </main>
+  <Layout>
+    <Text>Sorry, page not found!</Text>
+  </Layout>
 );
 
 export default NotFound;
